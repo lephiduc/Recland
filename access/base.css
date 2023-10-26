@@ -1,0 +1,85 @@
+:root {
+  --blue: #021a84;
+  --red: #fe4c4c;
+  --text: #171717;
+  --gray: #999;
+  --dark-blue: #010d42;
+  --background: #F2F2F2;
+  --light-gray: #e5e5e5;
+  --green-text: #156d33;
+  --blue-text: #021a84;
+  --red-text: #e5532a;
+  --green-gradient: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    #2ada66;
+  --purple-gradient: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    #021a84;
+  --red-gradient: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    #e5532a;
+}
+
+html, body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: var(--background);
+   
+}
+
+.wrapper{
+    max-width: 1160px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+/* Button style */
+.btn{
+  height: 44px;
+  min-width: 149px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: inherit;
+}
+
+.btn--boder{
+  border: 1px solid var(--blue);
+  border-radius: 8px;
+  color: var(--blue);
+}
+
+.btn--boder:hover{
+  border: 2px solid var(--blue);
+  font-size: 19px;
+}
+
+.btn--solid{
+  border: 1px solid var(--blue);
+  border-radius: 8px;
+  color: white;
+  background-color: var(--blue);
+}
+.btn--solid:hover{
+  background-color: #516ff0;
+  transition: 0.5s linear;
+}
+/* end Button style */
+.heading{
+  color: var(--dark-blue);
+  font-size: 34px;
+  font-weight: 700px;
+}
+
